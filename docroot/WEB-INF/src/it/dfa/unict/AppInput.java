@@ -12,7 +12,7 @@ public class AppInput {
 
 	// Each inputSandobox file must be declared below
 	// This variable contains the content of an uploaded file
-	private String inputSandbox;
+//	private String inputSandbox;
 
 	// Some user level information
 	// must be stored as well
@@ -25,7 +25,7 @@ public class AppInput {
 	public AppInput() {
 		this.inputFileName = "";
 		this.jobLabel = "";
-		this.inputSandbox = "";
+//		this.inputSandbox = "";
 		this.username = "";
 		this.timestamp = "";
 	}
@@ -46,14 +46,14 @@ public class AppInput {
 		this.jobLabel = joblabel;
 	}
 
-	public String getInputSandbox() {
-		return inputSandbox;
-	}
-
-	public void setInputSandbox(String inputFile) {
-		this.inputSandbox += (this.inputSandbox.equals("") ? "" : ",")
-				+ inputFile;
-	}
+//	public String getInputSandbox() {
+//		return inputSandbox;
+//	}
+//
+//	public void setInputSandbox(String inputFile) {
+//		this.inputSandbox += (this.inputSandbox.equals("") ? "" : ",")
+//				+ inputFile;
+//	}
 
 	public String getUsername() {
 		return username;
@@ -74,7 +74,7 @@ public class AppInput {
 	@Override
 	public String toString() {
 		return "AppInput{" + "inputFileName=" + inputFileName + ", jobLabel="
-				+ jobLabel + ", inputSandbox=" + inputSandbox + ", username="
+				+ jobLabel + ", username="
 				+ username + ", timestamp=" + timestamp + '}';
 	}
 

@@ -13,18 +13,18 @@ public final class Constants {
 	public static final String PATH_SEPARATOR = System
 			.getProperty("path.separator");
 
-	public static final String APP_INFRASTRUCTURE_INFO_PREFERENCES = "appInfrastructureInfoPreferences";
+//	public static final String APP_INFRASTRUCTURE_INFO_PREFERENCES = "appInfrastructureInfoPreferences";
 	public static final String APP_PREFERENCES = "appPreferences";
 	public static final String CONFIGURATION_JSPS_FOLDER = "/jsps/portlet-config/";
 	public static final String CONFIGURATION_PAGE = "configuration.jsp";
-	public static final String EDIT_INFRA_PAGE = "edit-infrastructure.jsp";
+//	public static final String EDIT_INFRA_PAGE = "edit-infrastructure.jsp";
 	public static final String VIEW_PILOT_PAGE = "view-pilot.jsp";
 
 	public static final String CMD = "command";
 	public static final String SAVE_PREFS = "save-prefs";
-	public static final String SAVE_INFRASTRUCTURE = "save-infrastructure";
-	public static final String TOGGLE_INFRASTRUCTURE = "disable-infrastructure";
-	public static final String DELETE_INFRASTRUCTURE = "delete-infrastructure";
+//	public static final String SAVE_INFRASTRUCTURE = "save-infrastructure";
+//	public static final String TOGGLE_INFRASTRUCTURE = "disable-infrastructure";
+//	public static final String DELETE_INFRASTRUCTURE = "delete-infrastructure";
 	public static final String SAVE_PILOT = "save-pilot";
 
 	public static final String INFRA_SAVED_SUCCESS = "infra-saved-success";
